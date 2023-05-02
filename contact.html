@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <link rel="stylesheet" href="about.css">
+  <link rel="stylesheet" href="contact.css">
+  <title>About</title>
+</head>
+<body>
+  <!-- start of container -->
+  <div class="container">
+    <!-- start header -->
+  <header>
+    <!-- start logo -->
+    <div class="logo">
+      <a href=""><img src="eduford_img/logo.png" alt=""></a>
+      
+    </div>
+    <!-- end logo -->
+    <!-- start home -->
+    <div class="home" id="sidebar">
+      <i class="fa-sharp fa-solid fa-xmark" onclick="hide()"></i>
+      <ul>
+        <li></li>
+        <li><a href="index.html">home</a></li>
+        <li><a href="about.html">about</a></li>
+        <li><a href="courses.html">course</a></li>
+        <li><a href="blog.html">blog</a></li>
+        <li><a href="contact.html">contact</a></li>
+      </ul>
+    </div>
+    <i class="fa-solid fa-bars" onclick="show()"></i>
+    <!-- end of home -->
+  </header>
+  <!-- end of header -->
+
+  <!-- start of university -->
+    <div class="university">
+      <!-- start of title -->
+      <div class="title">
+        <h1>about us</h1>
+      </div>
+      <!-- end of title -->
+    </div>
+  </div>
+  <!-- start of location -->
+  <div class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d109893.49088321929!2d30.952534850974228!3d30.600922999774145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1458803065fb163b%3A0xeb48396d6a791ecc!2z2YXYsdmD2LIg2KfZhNi02YfYr9in2KHYjCDYp9mE2YXZhtmI2YHZitip!5e0!3m2!1sar!2seg!4v1682449155518!5m2!1sar!2seg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+  <!-- end of location -->
+  <!-- start of info -->
+  <div class="info">
+    <div >
+      <div class="box">
+        <div>
+        <i class="fa-solid fa-house"></i>
+      </div>
+      <div>
+        <h1>Xyz road, ABC building</h1>
+        <p>bangalare, karnataka,IN</p>
+      </div>
+    </div>
+    <div class="box">
+      <div>
+        <i class="fa-solid fa-phone"></i>
+      </div>
+      <div>
+        <h1>+1 0123456789</h1>
+        <p>monday to saturday 10 am to 6 pm</p>
+      </div>
+    </div>
+    <div class="box">
+      <div>
+        <i class="fa-regular fa-envelope"></i>
+      </div>
+      <div>
+        <h1>info@easy tutorialpro.com</h1>
+        <p>email us your query</p>
+      </div>
+    </div>
+  </div>
+    <div class="mail">
+      <form action="">
+        <input type="text" placeholder="Enter your name">
+        <input type="email" placeholder="Enter email address">
+        <input type="text" placeholder="enter your subject">
+        <textarea name="" id="" cols="30" rows="10" placeholder="messge"></textarea>
+        <button>send message</button>
+      </form>
+    </div>
+  </div>
+  <!-- end of info -->
+  <div class="about">
+    <div class="title-courses">
+      <div>
+        <h1>about us</h1>
+      </div>
+      
+      <div>
+        <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate quae facilis natus expedita dignissimos minus quasi accusantium voluptas? Harum excepturi modi dolore veritatis commodi iure. Eius tenetur rem deserunt odit?
+      </p>
+      </div>
+    </div>
+    <ul class="social">
+      <li><i class="fa-brands fa-facebook-f"></i></li>
+      <li><i class="fa-brands fa-instagram"></i></li>
+      <li><i class="fa-brands fa-twitter"></i></li>
+      <li><i class="fa-brands fa-linkedin-in"></i></li>
+    </ul>
+    <div>
+      <p>made with <i class="fa-regular fa-heart"></i> mohamed hamdi</p>
+      
+    </div>
+  </div>
+  <script>
+    var link = document.getElementById("sidebar");
+
+    function show() {
+      link.style.right = "0"
+    }
+    function hide() {
+      link.style.right = "-200px"
+    }
+  </script>
+</body>
+</html>

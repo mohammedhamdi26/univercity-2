@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <link rel="stylesheet" href="about.css">
+  <link rel="stylesheet" href="blog.css">
+  <title>About</title>
+</head>
+<body>
+  <!-- start of container -->
+  <div class="container">
+    <!-- start header -->
+  <header>
+    <!-- start logo -->
+    <div class="logo">
+      <a href=""><img src="eduford_img/logo.png" alt=""></a>
+      
+    </div>
+    <!-- end logo -->
+    <!-- start home -->
+    <div class="home" id="sidebar">
+      <i class="fa-sharp fa-solid fa-xmark" onclick="hide()"></i>
+      <ul>
+        <li></li>
+        <li><a href="index.html">home</a></li>
+        <li><a href="about.html">about</a></li>
+        <li><a href="courses.html">course</a></li>
+        <li><a href="blog.html">blog</a></li>
+        <li><a href="contact.html">contact</a></li>
+      </ul>
+    </div>
+    <i class="fa-solid fa-bars" onclick="show()"></i>
+    <!-- end of home -->
+  </header>
+  <!-- end of header -->
+
+  <!-- start of university -->
+    <div class="university">
+      <!-- start of title -->
+      <div class="title">
+        <h1>our certificate & Online progams for 2021</h1>
+      </div>
+      <!-- end of title -->
+    </div>
+  </div>
+  <!-- start of blog -->
+  <div class="blog">
+    <div >
+      <div>
+        <img src="eduford_img/certificate.jpg" alt="">
+      </div>
+      <div class="title-blog">
+        <h1>
+          our certificate & Online progams for 2021
+
+        </h1>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam aperiam ratione adipisci nihil enim eius omnis at eaque tempore? Corporis nobis in porro quibusdam fugit nemo officiis atque ad dolores!
+        </p>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas nostrum dicta vitae veritatis assumenda cum ea asperiores. Dicta facilis perspiciatis, fuga suscipit natus amet, quod voluptatem tempore fugiat distinctio nisi. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda fuga asperiores aspernatur magni obcaecati, repudiandae iste perferendis, facilis dolorum blanditiis accusantium perspiciatis. Minus quas facilis accusantium ipsam assumenda tenetur illum?
+        </p>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta hic nulla itaque, enim beatae saepe magni quas deleniti sed dolore, veritatis voluptatum amet blanditiis eius qui aperiam. Error, eveniet doloribus!
+        </p>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum beatae magnam, maiores sequi animi odio adipisci necessitatibus omnis voluptas magni, cupiditate sapiente, quam exercitationem architecto harum! Sequi earum consequatur laudantium!
+        </p>
+      </div>
+      <form action="">
+        <h3>leave a comment</h3>
+        <input type="text" placeholder="Enter Name">
+        <input type="email" placeholder="Enter Email">
+        <textarea name="" id="" cols="30" rows="10" placeholder="Your Comment"></textarea>
+        <div class="button"><input type="submit" value="POST COMMENT"></div>
+      </form>
+    </div>
+    <div>
+      <table>
+        <tr>
+          <th><p>post categories</p></th>
+        </tr>
+        <tr>
+          <td>
+            <p>business analytics</p>
+          <p>21</p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p>data science</p>
+            <p>28</p>
+          </td>
+          
+        </tr>
+        <tr>
+          <td>
+            <p>machine learning</p>
+            <p>15</p>
+          </td>
+          
+        </tr>
+        <tr>
+          <td>
+            <p>computer science</p>
+            <p>34</p>
+          </td>
+          
+        </tr>
+        <tr>
+          <td>
+            <p>autoCAD</p>
+            <p>42</p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p>journalism</p>
+            <p>22</p>
+          </td>
+          
+        </tr>
+        <tr>
+          <td>
+            <p>commerce</p>
+            <p>13</p>
+          </td>
+        </tr>
+      </table>
+
+    </div>
+  </div>
+  <!-- end of blog -->
+  <!-- start of about -->
+  <div class="about">
+    <div class="title-courses">
+      <div>
+        <h1>about us</h1>
+      </div>
+      
+      <div>
+        <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate quae facilis natus expedita dignissimos minus quasi accusantium voluptas? Harum excepturi modi dolore veritatis commodi iure. Eius tenetur rem deserunt odit?
+      </p>
+      </div>
+    </div>
+    <ul class="social">
+      <li><i class="fa-brands fa-facebook-f"></i></li>
+      <li><i class="fa-brands fa-instagram"></i></li>
+      <li><i class="fa-brands fa-twitter"></i></li>
+      <li><i class="fa-brands fa-linkedin-in"></i></li>
+    </ul>
+    <div>
+      <p>made with <i class="fa-regular fa-heart"></i> mohamed hamdi</p>
+      
+    </div>
+  </div>
+  <!-- end of about -->
+  <script>
+    var link = document.getElementById("sidebar");
+
+    function show() {
+      link.style.right = "0"
+    }
+    function hide() {
+      link.style.right = "-200px"
+    }
+  </script>
+</body>
+</html>
